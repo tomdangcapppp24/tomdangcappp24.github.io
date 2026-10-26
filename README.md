@@ -2,7 +2,7 @@
 
 An English student portfolio about materials science, semiconductor modelling, academic development, and community contribution. Built with React, TypeScript and Vite for GitHub Pages.
 
-The visual design uses ivory, graphite and copper, with local conceptual crystal-lattice and thin-film illustrations. The figures explain scientific ideas; they are not experimental results or output from the student's simulation.
+The visual design uses ivory, graphite and copper, with local conceptual crystal-lattice and thin-film illustrations. The figures explain scientific ideas; they are not experimental results or output from the student's simulation. The landing page and thin-film illustration include gentle motion, controlled by the Motion toggle. Device reduced-motion settings are respected, and offscreen illustrations pause.
 
 ## Run locally
 

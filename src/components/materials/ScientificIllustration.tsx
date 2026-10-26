@@ -1,12 +1,24 @@
-import { useId } from "react";
+import { useEffect, useId, useRef, useState } from "react";
+import type { CSSProperties } from "react";
 
 type Props = { variant: "lattice" | "film" };
 
 export default function ScientificIllustration({ variant }: Props) {
   const id = useId();
+  const figure = useRef<HTMLElement>(null);
+  const [visible, setVisible] = useState(true);
+  useEffect(() => {
+    if (!figure.current || typeof IntersectionObserver === "undefined") return;
+    const observer = new IntersectionObserver(
+      ([entry]) => setVisible(entry.isIntersecting),
+      { rootMargin: "60px", threshold: 0.1 },
+    );
+    observer.observe(figure.current);
+    return () => observer.disconnect();
+  }, []);
   if (variant === "film")
     return (
-      <figure className="film-figure">
+      <figure ref={figure} className="film-figure" data-visible={visible}>
         <svg
           viewBox="0 0 520 450"
           role="img"
@@ -46,7 +58,28 @@ export default function ScientificIllustration({ variant }: Props) {
             </text>
             {[90, 160, 245, 305, 405, 455].map((x, i) => (
               <g key={x}>
-                <circle cx={x} cy={85 + (i % 3) * 35} r="6" fill="#dfa276" />
+                <circle
+                  className="film-particle"
+                  cx={x}
+                  cy={85 + (i % 3) * 35}
+                  r="6"
+                  fill="#dfa276"
+                  style={
+                    {
+                      "--phase": `${-i * 0.57}s`,
+                      "--fall-distance": `${(x > 170 && x < 355 ? 319 : 239) - (85 + (i % 3) * 35)}px`,
+                    } as CSSProperties
+                  }
+                />
+                <circle
+                  className="film-arrival"
+                  cx={x}
+                  cy={x > 170 && x < 355 ? 319 : 239}
+                  r="8"
+                  fill="none"
+                  stroke="#edc7a5"
+                  style={{ "--phase": `${-i * 0.57}s` } as CSSProperties}
+                />
                 <path
                   d={`M${x} ${104 + (i % 3) * 35} v28 m-4 -5 l4 5 4 -5`}
                   fill="none"
@@ -70,6 +103,14 @@ export default function ScientificIllustration({ variant }: Props) {
               fill="none"
               stroke="#edc7a5"
               strokeWidth="1.5"
+            />
+            <path
+              className="film-growth-trace"
+              d="M50 242 H167 V322 H358 V242 H470"
+              pathLength="1"
+              fill="none"
+              stroke="#ffe0ba"
+              strokeWidth="3"
             />
             <path d="M68 374 H450" stroke="#8b9992" strokeDasharray="3 6" />
             <path
@@ -105,7 +146,7 @@ export default function ScientificIllustration({ variant }: Props) {
     c: Math.floor(i / 16),
   }));
   return (
-    <figure className="lattice-figure">
+    <figure ref={figure} className="lattice-figure" data-visible={visible}>
       <svg
         viewBox="0 0 560 530"
         role="img"
@@ -137,9 +178,16 @@ export default function ScientificIllustration({ variant }: Props) {
           </pattern>
         </defs>
         <rect width="560" height="530" fill={`url(#${id}-dots)`} />
-        <circle cx="280" cy="275" r="250" fill={`url(#${id}-halo)`} />
+        <circle
+          className="lattice-halo"
+          cx="280"
+          cy="275"
+          r="250"
+          fill={`url(#${id}-halo)`}
+        />
         <g fill="none" stroke="#a39c8a" aria-hidden="true">
           <circle
+            className="lattice-orbit"
             cx="280"
             cy="275"
             r="224"
@@ -150,44 +198,50 @@ export default function ScientificIllustration({ variant }: Props) {
           <path d="M58 66 H79 M68 56 V77 M479 463 H500 M489 453 V474" />
         </g>
         <g aria-hidden="true">
-          {points.flatMap(({ a, b, c }) => {
-            const start = project(a, b, c);
-            return [
-              [a + 1, b, c],
-              [a, b + 1, c],
-              [a, b, c + 1],
-            ]
-              .filter((v) => v.every((n) => n < 4))
-              .map(([x, y, z], i) => {
-                const end = project(x, y, z);
-                return (
-                  <line
-                    key={`${a}-${b}-${c}-${i}`}
-                    x1={start.x}
-                    y1={start.y}
-                    x2={end.x}
-                    y2={end.y}
-                    stroke="#9c6b4d"
-                    strokeWidth="1.25"
-                    opacity={0.23 + c * 0.1}
-                  />
-                );
-              });
-          })}
-          {points.map(({ a, b, c }) => {
-            const p = project(a, b, c);
-            return (
-              <circle
-                key={`${a}-${b}-${c}`}
-                cx={p.x}
-                cy={p.y}
-                r={4.5 + c * 0.8}
-                fill={`url(#${id}-atom)`}
-                stroke="#fbefdc"
-                strokeWidth=".7"
-              />
-            );
-          })}
+          <g className="lattice-structure">
+            {points.flatMap(({ a, b, c }) => {
+              const start = project(a, b, c);
+              return [
+                [a + 1, b, c],
+                [a, b + 1, c],
+                [a, b, c + 1],
+              ]
+                .filter((v) => v.every((n) => n < 4))
+                .map(([x, y, z], i) => {
+                  const end = project(x, y, z);
+                  return (
+                    <line
+                      key={`${a}-${b}-${c}-${i}`}
+                      x1={start.x}
+                      y1={start.y}
+                      x2={end.x}
+                      y2={end.y}
+                      stroke="#9c6b4d"
+                      strokeWidth="1.25"
+                      opacity={0.23 + c * 0.1}
+                    />
+                  );
+                });
+            })}
+            {points.map(({ a, b, c }) => {
+              const p = project(a, b, c);
+              return (
+                <circle
+                  className="lattice-node"
+                  key={`${a}-${b}-${c}`}
+                  cx={p.x}
+                  cy={p.y}
+                  r={4.5 + c * 0.8}
+                  fill={`url(#${id}-atom)`}
+                  stroke="#fbefdc"
+                  strokeWidth=".7"
+                  style={
+                    { "--phase": `${-(a + b + c) * 0.45}s` } as CSSProperties
+                  }
+                />
+              );
+            })}
+          </g>
           <path d="M121 374 H61 V405" fill="none" stroke="#9b5c3e" />
           <text x="43" y="426" className="svg-label">
             ORDER AT SMALL SCALES

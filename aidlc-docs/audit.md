@@ -10338,3 +10338,25 @@ thay từ chỉ mục mẫu bằng từ đúng, ngoài ra fix lỗi vị trí c�
 **Context**: Explicit generated-code approval is still pending.
 
 ---
+
+## Code Generation — Animation and Greeting Request
+**Timestamp**: 2026-10-26T17:39:57Z
+**User Input**: "please add some animation to the landing page and thin film project. Also, move Hi, I'm Duc Anh closer"
+**AI Response**: Add subtle conceptual scientific animation with pause/reduced-motion controls and compact the two greeting lines shown in the supplied screenshot. Preserve existing copy, smaller typography, centered certificate previews and document privacy.
+**Context**: Generated-code review revision; both optional extensions disabled.
+
+---
+
+## Code Generation — Animation and Greeting Revision Complete
+**Timestamp**: 2026-10-26T17:45:03Z
+**AI Response**: Added gentle landing entrance/lattice drift, atomic deposition, surface ripples and a thin-film trace, with a global accessible pause control, live reduced-motion support and offscreen animation pausing. Tightened the greeting lines and paragraph spacing without enlarging type. Twenty-three tests, production build and public-asset checks passed. Browser verified actual animation movement, pause states, live system preference changes, offscreen pause, tight greeting spacing and no overflow at 320/768/1440px. No page errors. Updated plan checkboxes, state, design/NFR notes, README and summary in this interaction. No new asset, dependency, private document or deployment. Both optional extensions disabled.
+**Context**: Generated-code review amendment complete. Owned local preview server stopped at handoff.
+
+---
+
+## Code Generation — Animation Review Prompt
+**Timestamp**: 2026-10-26T17:45:03Z
+**AI Response**: Added gentle landing/lattice and thin-film deposition animation, with pause and reduced-motion support. Tightened Hi, I’m / Duc Anh spacing. Twenty-three tests, build, privacy and responsive browser checks passed. Show compact-greeting.png directly. AI-DLC review: Request Changes or Continue to Build and Test; generated-code approval remains required before that stage.
+**Context**: Existing generated-code gate; no publication.
+
+---

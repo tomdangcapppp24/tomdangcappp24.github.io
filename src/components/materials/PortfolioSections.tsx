@@ -60,7 +60,15 @@ export function SiteHeader() {
   );
 }
 
-export function Introduction() {
+export function Introduction({
+  motionEnabled,
+  reducedMotion,
+  onToggleMotion,
+}: {
+  motionEnabled: boolean;
+  reducedMotion: boolean;
+  onToggleMotion: () => void;
+}) {
   return (
     <section
       id="home"
@@ -74,13 +82,37 @@ export function Introduction() {
           </span>{" "}
           Materials science & engineering
         </p>
-        <span className="mono hero-edition">STUDENT PORTFOLIO / 2026</span>
+        <div className="hero-controls">
+          <span className="mono hero-edition">STUDENT PORTFOLIO / 2026</span>
+          <button
+            type="button"
+            className="motion-toggle"
+            onClick={onToggleMotion}
+            aria-label="Animations"
+            aria-pressed={motionEnabled}
+            disabled={reducedMotion}
+            title={
+              reducedMotion
+                ? "Your reduced-motion preference is active"
+                : motionEnabled
+                  ? "Pause animations"
+                  : "Play animations"
+            }
+            data-testid="hero-motion-toggle-button"
+          >
+            <span aria-hidden="true">{motionEnabled ? "Ⅱ" : "▷"}</span>
+            {reducedMotion
+              ? "Reduced motion"
+              : motionEnabled
+                ? "Motion on"
+                : "Motion off"}
+          </button>
+        </div>
       </div>
       <div className="hero-grid">
         <div className="hero-copy">
           <h1 id="intro-title">
-            Hi, I’m <br />
-            <em>Duc Anh.</em>
+            <span className="hero-greeting">Hi, I’m</span> <em>Duc Anh.</em>
           </h1>
           <p className="hero-intro">{introduction.summary}</p>
           <a

@@ -43,3 +43,7 @@ Authorized by the user's generated-code review request. Primary reading text and
 ## Direct-preview and introduction refinement
 
 The subsequent user review requests previews directly on the page and a smaller opening section. Six lazy-loaded JPEG previews, derived only from approved public PDFs, now appear inline in Recognition. Each can be enlarged using the existing modal, and direct PDF access remains. Hero typography is reduced to an 88px desktop headline maximum and a 52–72px mobile range; intro copy is 16px desktop and 15px mobile. Other sections retain larger reading text. No private original is made public. This explicit revision supersedes the earlier modal-only presentation.
+
+## Authorized scientific animation refinement
+
+The user requested animation on the landing page and thin-film project and a tighter greeting. App now owns a non-persistent motion preference and observes the device reduced-motion setting. Introduction presents a motion toggle; ScientificIllustration uses CSS motion and pauses offscreen via IntersectionObserver. All animations are illustrative, preserve accessible descriptions and can stop without hiding essential content. Greeting lines are grouped more tightly. No scientific simulator, result dataset, backend or new public asset is added.

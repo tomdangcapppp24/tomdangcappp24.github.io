@@ -4,7 +4,7 @@
 
 - **Workspace**: `/Users/nhamhhung/tomdangcappp24.github.io`.
 - **Current phase**: CONSTRUCTION.
-- **Current stage**: Code Generation Part 2 — reference-inspired copy verified, awaiting generated-code approval.
+- **Current stage**: Code Generation Part 2 — scientific animations and compact greeting verified, awaiting generated-code approval.
 - **Depth**: Standard; custom multi-section portfolio with public document privacy requirements.
 - **Plan**: `inception/plans/bui-duc-anh-workspace-plan.md`.
 - **Questions**: `inception/requirements/bui-duc-anh-requirement-questions.md`.

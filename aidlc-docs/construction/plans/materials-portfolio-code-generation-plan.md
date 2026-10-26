@@ -160,3 +160,9 @@ Authorized directly by the user's request: increase font size for visibility and
 - [x] Read the public reference website and identify its tone, wording patterns and content structure.
 - [x] Adapt Duc Anh’s public copy in that direction while retaining source-supported facts, privacy controls and the approved layout.
 - [x] Verify the copy changes with relevant tests/build and privacy checks; update state, summary and audit.
+
+## Review amendment: scientific motion and tighter greeting
+
+- [x] Add subtle landing/lattice and illustrative thin-film deposition motion, a global pause control, reduced-motion support, and offscreen animation pausing. Keep scientific labels explicitly conceptual.
+- [x] Tighten the two greeting lines and nearby introductory spacing without enlarging the approved type.
+- [x] Verify animation controls/preferences, layout, tests/build/privacy and responsive browser behavior; update state, summary and audit.

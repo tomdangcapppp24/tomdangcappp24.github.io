@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import {
   CommunitySection,
   FoundationsSection,
@@ -12,6 +12,19 @@ import { normalizePortfolioHash } from "./utils/portfolioHash";
 import "./App.css";
 
 export default function App() {
+  const [motionRequested, setMotionRequested] = useState(true);
+  const [reducedMotion, setReducedMotion] = useState(
+    () => window.matchMedia("(prefers-reduced-motion: reduce)").matches,
+  );
+  const motionEnabled = motionRequested && !reducedMotion;
+
+  useEffect(() => {
+    const preference = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const sync = () => setReducedMotion(preference.matches);
+    preference.addEventListener("change", sync);
+    return () => preference.removeEventListener("change", sync);
+  }, []);
+
   useEffect(() => {
     const normalize = () => {
       const hash = normalizePortfolioHash(window.location.hash);
@@ -32,16 +45,23 @@ export default function App() {
   }, []);
 
   return (
-    <>
+    <div
+      className="portfolio-site"
+      data-motion={motionEnabled ? "playing" : "paused"}
+    >
       <SiteHeader />
       <main id="main" tabIndex={-1}>
-        <Introduction />
+        <Introduction
+          motionEnabled={motionEnabled}
+          reducedMotion={reducedMotion}
+          onToggleMotion={() => setMotionRequested((current) => !current)}
+        />
         <ResearchSection />
         <FoundationsSection />
         <RecognitionSection />
         <CommunitySection />
       </main>
       <SiteFooter />
-    </>
+    </div>
   );
 }

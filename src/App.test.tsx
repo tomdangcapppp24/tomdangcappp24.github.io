@@ -1,5 +1,5 @@
 import { StrictMode } from "react";
-import { afterEach, beforeAll, describe, expect, it } from "vitest";
+import { afterEach, beforeAll, describe, expect, it, vi } from "vitest";
 import {
   cleanup,
   fireEvent,
@@ -24,10 +24,53 @@ beforeAll(() => {
 
 afterEach(() => {
   cleanup();
+  vi.restoreAllMocks();
   window.history.replaceState(null, "", "/");
 });
 
 describe("materials science portfolio", () => {
+  it("lets readers pause and resume both scientific illustrations", () => {
+    render(<App />);
+    const toggle = screen.getByRole("button", { name: "Animations" });
+    expect(toggle).toHaveAttribute("aria-pressed", "true");
+    fireEvent.click(toggle);
+    expect(toggle).toHaveAttribute("aria-pressed", "false");
+    expect(toggle.closest(".portfolio-site")).toHaveAttribute(
+      "data-motion",
+      "paused",
+    );
+    expect(
+      screen.getByRole("img", { name: /Conceptual thin-film deposition/ }),
+    ).toBeInTheDocument();
+    fireEvent.click(toggle);
+    expect(toggle).toHaveAttribute("aria-pressed", "true");
+    expect(toggle.closest(".portfolio-site")).toHaveAttribute(
+      "data-motion",
+      "playing",
+    );
+  });
+
+  it("starts with motion disabled for a reduced-motion preference", () => {
+    vi.spyOn(window, "matchMedia").mockImplementation((query) => ({
+      matches: true,
+      media: query,
+      onchange: null,
+      addEventListener: () => {},
+      removeEventListener: () => {},
+      addListener: () => {},
+      removeListener: () => {},
+      dispatchEvent: () => true,
+    }));
+    render(<App />);
+    const toggle = screen.getByRole("button", { name: "Animations" });
+    expect(toggle).toBeDisabled();
+    expect(toggle).toHaveAttribute("aria-pressed", "false");
+    expect(toggle.closest(".portfolio-site")).toHaveAttribute(
+      "data-motion",
+      "paused",
+    );
+  });
+
   it("introduces the student and gives every primary link a real destination", () => {
     render(<App />);
     expect(screen.getAllByRole("heading", { level: 1 })).toHaveLength(1);
@@ -187,8 +230,6 @@ describe("materials science portfolio", () => {
       .getByRole("heading", { name: "International Chemistry Quiz — Credit" })
       .closest("article")!;
     expect(within(row).getByText("2025")).toBeInTheDocument();
-    expect(
-      screen.getByText("BOOKS OPEN THE DOORS"),
-    ).toBeInTheDocument();
+    expect(screen.getByText("BOOKS OPEN THE DOORS")).toBeInTheDocument();
   });
 });

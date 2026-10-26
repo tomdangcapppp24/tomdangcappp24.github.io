@@ -20,7 +20,7 @@ Render all five sections as semantic static content. Keep essential navigation a
 
 Use flexible grids, bounded text measures, wrapping labels, minimum zero widths on grid children, fluid SVG dimensions and no fixed-width content that forces overflow. Review at 320px, 768px and 1440px and at 200% zoom when browser tooling permits. Calculate actual foreground/background contrast pairs and verify focus styles. Use local/system typography. Keep scientific illustrations explicitly conceptual, with meaningful alternatives and decorative primitives hidden from assistive technology.
 
-Prefer static figures. If hover transitions or decorative animation are present, disable or reduce them under prefers-reduced-motion. Smooth scrolling must also respect that preference.
+As authorized by generated-code review, scientific figures may use gentle motion with a pause control, offscreen pausing and reduced-motion support. If hover transitions or decorative animation are present, disable or reduce them under prefers-reduced-motion. Smooth scrolling must also respect that preference.
 
 Coverage: NFR-04, NFR-05, NFR-06.
 
