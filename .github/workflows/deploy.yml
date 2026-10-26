@@ -42,8 +42,14 @@ jobs:
             echo "VITE_BASE_PATH=/${repository}/" >> "$GITHUB_ENV"
           fi
 
+      - name: Test
+        run: npm test
+
       - name: Build
         run: npm run build
+
+      - name: Verify public assets
+        run: npm run verify:public
 
       - name: Setup Pages
         uses: actions/configure-pages@v4

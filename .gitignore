@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Private source materials: reference locally; never commit originals.
+/src/assets/Resume - Bui Duc Anh.docx
+/src/assets/Volunteer-20261025T152907Z-1-001.zip
+/src/assets/clubs-20261025T152910Z-1-001.zip
+/private-source-materials/

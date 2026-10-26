@@ -1,5 +1,56 @@
 # AI-DLC State Tracking
 
+## Bui Duc Anh Materials Science Portfolio — Current Workflow
+
+- **Workspace**: `/Users/nhamhhung/tomdangcappp24.github.io`.
+- **Current phase**: CONSTRUCTION.
+- **Current stage**: Code Generation Part 2 — reference-inspired copy verified, awaiting generated-code approval.
+- **Depth**: Standard; custom multi-section portfolio with public document privacy requirements.
+- **Plan**: `inception/plans/bui-duc-anh-workspace-plan.md`.
+- **Questions**: `inception/requirements/bui-duc-anh-requirement-questions.md`.
+- **Requirements**: `inception/requirements/bui-duc-anh-requirements.md`.
+- **Story plan**: `inception/plans/bui-duc-anh-story-generation-plan.md`.
+- **Execution plan**: `inception/plans/bui-duc-anh-execution-plan.md`.
+- **Design**: `inception/application-design/bui-duc-anh/application-design.md`.
+- **Design checklist**: `inception/plans/bui-duc-anh-application-design-plan.md`.
+- **NFR Requirements**: `construction/materials-portfolio/nfr-requirements/nfr-requirements.md`.
+- **NFR plan**: `construction/plans/materials-portfolio-nfr-requirements-plan.md`.
+- **NFR Design**: `construction/materials-portfolio/nfr-design/nfr-design-patterns.md`.
+- **NFR Design plan**: `construction/plans/materials-portfolio-nfr-design-plan.md`.
+- **Code Generation plan**: `construction/plans/materials-portfolio-code-generation-plan.md`.
+- **Code summary**: `construction/materials-portfolio/code/code-generation-summary.md`.
+- **Next stage after approval**: Build and Test — formal instructions and handoff.
+- **Validated answers**: Q1 A, Q2 A, Q3 B, Q4 C; confirmed by "approve and continue".
+- [x] Workspace Detection and existing architecture review.
+- [x] Local resume content and ZIP inventory review.
+- [x] Original source documents excluded from Git tracking.
+- [x] Requirements scope and extension questions prepared.
+- [x] Requirements answers validated and requirements generated.
+- [x] Requirements approved with "approve and continue" on 2026-10-26.
+- [x] User Stories assessment and story-generation plan prepared.
+- [x] Story plan approved with "approve"; eight stories and three personas generated.
+- [x] Generated stories and personas approved with "approve and continue".
+- [x] Workflow Planning analysis, stage selection and execution plan generated.
+- [x] Execution plan approved with "approve and continue".
+- [x] Application Design artifacts generated and validated.
+- [x] Application Design approved with "approve and continue".
+- Units Generation — skip, one cohesive static UI unit.
+- Functional Design — skip, no complex logic or domain schema.
+- [x] NFR Requirements criteria and technology decisions generated.
+- [x] NFR Requirements approved with "approve and continue".
+- [x] NFR Design patterns and logical components generated.
+- [x] NFR Design approved with "approve and continue".
+- Infrastructure Design — skip, GitHub Pages unchanged.
+- [x] Code Generation detailed plan prepared.
+- [x] Code Generation plan approved with "approve and continue".
+- [x] All twelve implementation steps and eight stories completed; 19 tests, root/subpath builds and public-asset checks passed.
+- [x] Requested larger typography and on-demand certificate previews implemented; 20 tests, root/subpath builds, privacy checks and browser dialog/responsive checks passed.
+- [x] Direct-preview/smaller-introduction revision verified: six approved inline images, 21 tests, responsive browser checks and root/subpath privacy-checked builds.
+- [ ] Generated code approved before formal Build and Test.
+- [ ] Build and Test.
+
+Previous workflows below remain historical. Both optional extensions are disabled by the current workflow's explicit answers. Implementation is complete and verified; no commit, push or deployment has occurred for this change.
+
 ## Active Workflow
 
 - **Change**: Vietnamese NUS CS career guidance presentation.
@@ -122,8 +173,8 @@ Vietnamese talk at `#/talks/nus-cs`: twelve presentation scenes including a prof
 
 | Extension              | Enabled | Decision                                              |
 | ---------------------- | ------- | ----------------------------------------------------- |
-| Security Baseline      | No      | NUS Career Talk Requirements Analysis (Q7 B) |
-| Property-Based Testing | No      | NUS Career Talk Requirements Analysis (Q8 C) |
+| Security Baseline      | No      | Bui Duc Anh Requirements Analysis (Q3 B) |
+| Property-Based Testing | No      | Bui Duc Anh Requirements Analysis (Q4 C) |
 
 ## Active Stage Progress
 

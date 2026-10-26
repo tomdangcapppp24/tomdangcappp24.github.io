@@ -1,5 +1,5 @@
 {
-  "name": "my-portfolio",
+  "name": "bui-duc-anh-materials-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,19 +8,12 @@
     "test": "vitest run",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "verify:public": "node scripts/verify-public-assets.mjs"
   },
   "dependencies": {
-    "@chakra-ui/icons": "^2.2.4",
-    "@chakra-ui/react": "^3.30.0",
-    "@emotion/react": "^11.14.0",
-    "@tailwindcss/vite": "^4.1.18",
-    "next-themes": "^0.4.6",
     "react": "^19.2.0",
-    "react-dom": "^19.2.0",
-    "react-icons": "^5.5.0",
-    "react-markdown": "^10.1.0",
-    "tailwindcss": "^4.1.18"
+    "react-dom": "^19.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.2",
@@ -31,12 +24,9 @@
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react-swc": "^4.2.2",
     "eslint": "^9.39.2",
-    "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.5.0",
-    "jiti": "^2.6.1",
     "jsdom": "^29.1.1",
     "prettier": "3.7.4",
     "typescript": "~5.9.3",

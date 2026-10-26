@@ -10100,3 +10100,241 @@ thay từ chỉ mục mẫu bằng từ đúng, ngoài ra fix lỗi vị trí c�
 **Context**: Plan and review evidence updated.
 
 ---
+
+## Workspace Detection and Requirements Analysis — Bui Duc Anh
+**Timestamp**: 2026-10-26T14:30:24Z
+**User Input**: "using ai-dlc, use resume - bui duc anh and the 2 newly added zips to build a custom website for him on the theme of material science & engineering. Please ensure no private credentials is published online on github, only those normal certificates. But you can refer to those credentials for content. "
+**AI Response**: Located the resume and two new ZIPs; displayed the AI-DLC welcome; read common rules, inherited state, extension opt-in files, existing architecture and Sites design guidance. Detected brownfield React/Vite/GitHub Pages application belonging to another person. Reused existing reverse-engineering context and checked the later talk-route boundary. Read resume locally and ZIP inventories, without copying originals or private credentials into documentation. Added ignore rules for the three untracked original inputs and private-source-materials directory; git check-ignore confirms all three are excluded. Prepared the checked workspace plan and four requirements choices. Proposed a materials-laboratory visual direction and source-grounded student portfolio. No application implementation, commit, push or deployment performed.
+**Context**: New workflow; previous workflows retained. Security Baseline and PBT full rules skipped because inherited configuration disables them; new opt-in questions prepared. Markdown artifacts validated before creation.
+
+---
+
+## Requirements Clarification Gate
+**Timestamp**: 2026-10-26T14:30:24Z
+**AI Response**: Reviewed the resume and both ZIP inventories. Drafted a materials-science website direction and protected the three original files with Git ignore rules. Please answer the four choices in aidlc-docs/inception/requirements/bui-duc-anh-requirement-questions.md; suggested choices are 1A, 2A, 3A, 4C. AI-DLC instructions require waiting for these answers before generating the requirements and implementation plan.
+**Context**: Explicit requirements-answer gate from .aidlc-rule-details/inception/requirements-analysis.md, Step 6. Await user answers; no assumed approval.
+
+---
+
+## Requirements Analysis — Choices confirmed
+**Timestamp**: 2026-10-26T14:32:17Z
+**User Input**: "approve and continue"
+**AI Response**: Read the saved question file. Actual answers are Q1 A, Q2 A, Q3 B, Q4 C. Initial commentary mistakenly inferred recommended Q3 A; corrected immediately to respect saved Q3 B. Security Baseline was read before the opt-out was noticed, but is not enforced. PBT full rules remain unloaded. Both extension skips recorded. Confirmed portfolio replacement and individually reviewed ordinary certificates only. No contradictory answers found. Generated bui-duc-anh-requirements.md with public content, design, accessibility, document privacy and build acceptance criteria. Updated workspace checkboxes, state and extension decisions.
+**Context**: Requirements generation complete; explicit requirements approval pending. No application implementation or publication. Markdown tables, links, plain text and special characters validated before file creation.
+
+---
+
+## Requirements Analysis — Approval prompt
+**Timestamp**: 2026-10-26T14:32:17Z
+**AI Response**: Requirements Analysis Complete. Review aidlc-docs/inception/requirements/bui-duc-anh-requirements.md. Scope: replace the current site with Bui Duc Anh's materials science portfolio; publish only reviewed ordinary certificates; exclude private source documents and credentials from GitHub and production output. Both optional extensions are disabled per saved answers, so extension compliance is N/A. Request Changes or Approve & Continue to User Stories.
+**Context**: Explicit review gate required by AGENTS.md Requirements Analysis and .aidlc-rule-details/inception/requirements-analysis.md Step 9: wait for explicit user approval before proceeding.
+
+---
+
+## Requirements Approval and User Stories Planning
+**Timestamp**: 2026-10-26T14:49:13Z
+**User Input**: "approve and continue"
+**AI Response**: Requirements marked approved. Loaded User Stories detailed rules and Workflow Planning rules. Assessed direct user impact and three audience perspectives; documented the assessment and created a concise story-generation plan. Stage checkboxes updated in the same interaction. No story artifacts generated before plan approval. Both optional extensions skipped per current configuration. All generated Markdown content validated before creation.
+**Context**: User Stories Part 1; explicit approach approval pending.
+
+---
+
+## User Stories — Plan Approval Prompt
+**Timestamp**: 2026-10-26T14:49:13Z
+**AI Response**: "Requirements approved. Prepared the story plan for admissions readers, scientifically interested peers and the portfolio owner. Recommend a visitor journey approach with observable acceptance criteria, including private-document exclusion. Review aidlc-docs/inception/plans/bui-duc-anh-story-generation-plan.md and choose Request Changes or Approve & Continue to generate stories and personas. Both optional extensions remain disabled (N/A). The additional approval is required by AGENTS.md User Stories Part 1 and .aidlc-rule-details/inception/user-stories.md Step 13: Do not proceed until the user explicitly approves the story approach."
+**Context**: Plan completed and reviewable; awaiting approval before story generation.
+
+---
+
+## User Stories — Generation
+**Timestamp**: 2026-10-26T15:04:04Z
+**User Input**: "approve"
+**AI Response**: Accepted explicit approval of the recommended story approach, validated against requirements without ambiguity, and generated three personas and eight stories. Verified INVEST, coverage of all eight FR and six PR requirements, conceptual-illustration labelling, ongoing coursework, withheld certificates, unavailable contact information and legacy entry points. Marked completed plan checkboxes and updated stage state in this interaction. Optional Security Baseline and PBT skipped as disabled. No source PDF publication review or implementation claimed. A combined patch was rejected for duplicate update targets; no changes were applied by that rejected call, and the corrected patch succeeded.
+**Context**: Story artifacts complete and reviewable; generated-story approval pending.
+
+---
+
+## User Stories — Generated Artifact Approval Prompt
+**Timestamp**: 2026-10-26T15:04:04Z
+**AI Response**: "User Stories Complete. Created eight stories and three personas covering scientific work, academic progress, achievements, accessible navigation and private-document protection. Review the stories and personas under aidlc-docs/inception/user-stories/bui-duc-anh/. Both optional extensions are disabled (N/A). Request Changes or Approve & Continue to Workflow Planning. Your AI-DLC User Stories rules require approval of generated stories before Workflow Planning."
+**Context**: Explicit gate from .aidlc-rule-details/inception/user-stories.md Step 21 and AGENTS.md User Stories Step 9.
+
+---
+
+## User Stories Approval and Workflow Planning
+**Timestamp**: 2026-10-26T15:09:17Z
+**User Input**: "approve and continue"
+**AI Response**: Marked generated stories/personas approved and the story plan complete. Loaded prior architecture, component inventory, technology stack, dependencies, approved requirements, saved choices and stories/personas. Inspected current entry point, package configuration and source inventory. Generated the single-unit execution plan with impact and risk analysis, five remaining executed stages, explicit skip reasons, implementation sequence and success criteria. Validated restricted Mermaid grammar and document links before writing; full renderer validation was not performed. Updated state and plan checkboxes in this interaction. No implementation, certificate publication or deployment occurred.
+**Context**: Workflow Planning completed, awaiting explicit plan approval. Both optional extensions skipped because disabled; user privacy remains mandatory.
+
+---
+
+## Workflow Planning — Approval Prompt
+**Timestamp**: 2026-10-26T15:09:17Z
+**AI Response**: "Workflow Planning Complete. The execution plan covers one materials-science portfolio replacement, five remaining stages, and medium risk from the scope and document-publication requirements. Execute Application Design, NFR Requirements, NFR Design, Code Generation, and Build and Test. Reuse reverse engineering; skip Units Generation, Functional Design and Infrastructure Design for the documented reasons. Optional Security Baseline and Property-Based Testing are N/A because disabled. Review aidlc-docs/inception/plans/bui-duc-anh-execution-plan.md. You may Request Changes, Add Skipped Stages, or Approve & Continue to Application Design. Your AGENTS.md Workflow Planning instructions require explicit plan approval before the next stage."
+**Context**: Review gate from AGENTS.md Workflow Planning Step 7 and .aidlc-rule-details/inception/workflow-planning.md Steps 9–10. User may include currently skipped stages.
+
+---
+
+## Workflow Approval and Application Design
+**Timestamp**: 2026-10-26T15:13:40Z
+**User Input**: "approve and continue"
+**AI Response**: Marked execution plan approved. Read the Application Design rule details and approved scope. Evaluated components, method contracts, service boundaries, dependencies and patterns; no unresolved factual questions required additional input. Generated components.md, component-methods.md, services.md, component-dependency.md and consolidated application-design.md under inception/application-design/bui-duc-anh. Generated the completed design checklist and updated state in this interaction. Plain Markdown and local links validated before file creation. Public data and reviewed certificate assets are isolated from original private inputs. Both optional extension rules skipped as disabled. No implementation or publication occurred.
+**Context**: Application Design artifacts complete; explicit generated-design review pending. Units Generation remains skipped per approved workflow plan.
+
+---
+
+## Application Design — Approval Prompt
+**Timestamp**: 2026-10-26T15:13:40Z
+**AI Response**: "Application Design Complete. Created five design artifacts for a five-section materials science portfolio, conceptual scientific figures, native anchor navigation and an explicit reviewed-certificate registry. No backend is introduced. Review aidlc-docs/inception/application-design/bui-duc-anh/application-design.md and its linked artifacts. Security Baseline and PBT are N/A because disabled; user privacy is covered by the design with implementation verification pending. Request Changes, Add Units Generation, or Approve & Continue to Construction/NFR Requirements. Your AGENTS.md Application Design instructions require explicit approval of the generated design before the next stage."
+**Context**: Gate from AGENTS.md Application Design Step 5 and .aidlc-rule-details/inception/application-design.md Step 13.
+
+---
+
+## Application Design Approval and NFR Requirements
+**Timestamp**: 2026-10-26T15:21:17Z
+**User Input**: "approve and continue"
+**AI Response**: Marked Application Design approved and entered Construction for the single materials-portfolio unit. Loaded NFR Requirements detailed rules and approved design; used application design as functional context because Functional Design is explicitly skipped by the approved execution plan. Assessed all eight NFR question categories; no unresolved product decision required clarification. Created assessment plan, ten observable quality criteria and technology decisions. Budgets are proposed criteria, not measured performance. Updated stage/plan checkboxes in the same interaction. Both optional extensions skipped per saved configuration. No implementation or publication performed.
+**Context**: NFR Requirements generated, explicit stage approval pending. Plain Markdown tables and text validated before creation.
+
+---
+
+## NFR Requirements — Approval Prompt
+**Timestamp**: 2026-10-26T15:21:17Z
+**AI Response**: "NFR Requirements Complete — materials-portfolio. Defined ten quality criteria for privacy, certificate review, identity, accessibility, responsive layouts, motion, initial-load budgets, reliability, Pages compatibility and maintainability. Retain React/TypeScript/Vite and GitHub Pages. Review aidlc-docs/construction/materials-portfolio/nfr-requirements/nfr-requirements.md and tech-stack-decisions.md. Both optional extensions are disabled (N/A); user privacy remains mandatory. Request Changes or Continue to Next Stage — approve NFR Requirements and proceed to NFR Design. Your AI-DLC instructions require explicit approval of these criteria before NFR Design."
+**Context**: Two-option gate required by AGENTS.md NFR Requirements and .aidlc-rule-details/construction/nfr-requirements.md Step 8.
+
+---
+
+## NFR Requirements Approval and NFR Design
+**Timestamp**: 2026-10-26T15:48:24Z
+**User Input**: "approve and continue"
+**AI Response**: Marked NFR Requirements and stack decisions approved. Loaded NFR Design detailed rules and approved criteria. Assessed resilience, scalability, performance, privacy/security and logical components using scope evidence; no unresolved product decision required further clarification. Created design plan, nfr-design-patterns.md and logical-components.md. Covered all ten NFR criteria with implementation controls and required evidence. Updated plan and state checkboxes in this interaction. Both optional extensions skipped because disabled. Plain Markdown structure and mappings validated before writing. No implementation, document publication or deployment performed.
+**Context**: NFR Design generated, explicit stage approval pending.
+
+---
+
+## NFR Design — Approval Prompt
+**Timestamp**: 2026-10-26T15:48:24Z
+**AI Response**: "NFR Design Complete — materials-portfolio. Defined reviewed-certificate allowlisting, private-reference isolation, accessible responsive presentation, lightweight delivery and source/build verification controls. Review aidlc-docs/construction/materials-portfolio/nfr-design/nfr-design-patterns.md and logical-components.md. Both optional extensions remain disabled (N/A); mandatory privacy controls are covered in the design. Request Changes or Continue to Next Stage to approve NFR Design and proceed to the detailed Code Generation plan. Your AI-DLC instructions require explicit approval before Code Generation planning."
+**Context**: Two-option review gate from AGENTS.md NFR Design and .aidlc-rule-details/construction/nfr-design.md Step 8.
+
+---
+
+## NFR Design Approval and Code Generation Planning
+**Timestamp**: 2026-10-26T15:51:49Z
+**User Input**: "approve and continue"
+**AI Response**: Marked NFR Design approved. Loaded Code Generation detailed rules, approved design controls/component interfaces, source inventory, package/Vite configuration and reverse-engineering code structure. Prepared a twelve-step unit plan covering all eight stories and ten NFR criteria with exact application/documentation paths, retirement boundaries, meaningful verification and generated-code handoff. Original private inputs and unrelated edits are preserved. Updated stage and plan checkboxes in this interaction. Optional extensions skipped as disabled. No application code, PDF publication or deployment occurred.
+**Context**: Code Generation Part 1 complete; explicit approval of the entire implementation plan pending.
+
+---
+
+## Code Generation Plan — Approval Prompt
+**Timestamp**: 2026-10-26T15:51:49Z
+**AI Response**: "The twelve-step implementation plan is ready at aidlc-docs/construction/plans/materials-portfolio-code-generation-plan.md. It covers private certificate review, curated content, materials-science illustrations and layout, the replacement application, retirement of old content/dependencies, meaningful tests and source/build privacy checks. Both optional extensions are N/A because disabled. Request Changes or Approve the entire plan to start implementation. Your AI-DLC Code Generation instructions require explicit approval of the detailed plan before code is generated."
+**Context**: Gate from AGENTS.md Code Generation Part 1 and .aidlc-rule-details/construction/code-generation.md Step 7.
+
+---
+
+## Code Generation — Plan Approval
+**Timestamp**: 2026-10-26T15:53:10Z
+**User Input**: "approve and continue"
+**AI Response**: Entire twelve-step plan approved. Implementation started with worktree preservation, dependency installation, private PDF tooling and supported local preview assessment.
+**Context**: Code Generation Part 2; both optional extensions disabled.
+
+---
+
+## Code Generation — Implementation and Verification
+**Timestamp**: 2026-10-26T16:13:10Z
+**AI Response**: Completed all twelve approved implementation steps and all eight stories. Reviewed all five PDFs/six scanned pages privately, checked metadata/structure, prepared flattened public copies with selected codes/identifiers removed, re-reviewed all resulting pages and recorded safe hashes. Original local inputs preserved, ignored and untracked. Implemented the custom ivory/graphite/copper portfolio, source-grounded student content, conceptual SVGs, semantic navigation, reviewed certificate links and legacy-hash handling. Retired obsolete former-owner source/assets/tests and unused dependencies. Added meaningful tests, source/build public-asset verifier and CI checks; updated README/DEPLOYMENT.
+**Context**: 19 tests passed; TypeScript/Vite root and subpath builds passed; final build uses root base. Five certificate hashes and original exclusion verified; a non-sensitive unapproved-PDF probe was rejected and removed. Local production Chrome verified responsive widths 320/768/1440, keyboard skip/navigation, unobscured headings, five PDF HTTP 200 links, no initial PDFs/external runtime requests, reduced motion, safe legacy hash and no uncaught page errors. Principal contrast pairs passed; gzip JS 65.64 KiB and CSS 4.04 KiB. 200% equivalent reflow was simulated at 720 CSS px/2x scale; toolbar zoom and a complete assistive-technology audit were not performed. Local Swift failed; isolated PDF/browser tools were used. No private source contents entered tracked notes or public output. No commit, push or deployment. Both optional extensions remain disabled (N/A).
+
+---
+
+## Code Generation — Review Prompt
+**Timestamp**: 2026-10-26T16:13:10Z
+**AI Response**: "Code Generation Complete. Built the custom materials-science portfolio with five reviewed, sanitized certificate copies. Preview: /private/tmp/bui-duc-anh-review/preview-desktop.png. Validation: 19 tests passed; production builds, asset/privacy checks and desktop/mobile browser checks passed. Original resume and ZIPs remain ignored and untracked. Nothing has been pushed or published. Request Changes or Continue to Next Stage for the formal Build and Test handoff. Your AI-DLC instructions require generated-code approval before that stage."
+**Context**: Generated-code gate from AGENTS.md Code Generation Step 6 and .aidlc-rule-details/construction/code-generation.md Step 15. Formal Build and Test awaits user approval. Local owned preview servers stopped during handoff; screenshot review artifact remains available.
+
+---
+
+## Code Generation — Requested Readability and Preview Revision
+**Timestamp**: 2026-10-26T16:45:39Z
+**User Input**: "Please increase the font size for visibility and add certification preview options"
+**AI Response**: Treating the request as changes to the current generated-code review. Added a tracked amendment plan for larger typography, on-demand approved-certificate previews, relevant interaction/privacy verification and updated handoff. Existing source privacy controls and five reviewed PDF hashes remain required. Both optional extensions remain disabled.
+**Context**: Explicitly authorized review revision; no deployment or publication.
+
+---
+
+## Code Generation — Readability and Preview Revision Complete
+**Timestamp**: 2026-10-26T16:52:51Z
+**AI Response**: Enlarged text across the site, added on-demand approved-certificate modal previews and retained direct PDF access/fallback. Added a StrictMode-safe preview component, native keyboard/modal behavior, scroll restoration and interaction tests covering all five certificate choices. Updated relevant requirements/design notes and summary without restarting the approved workflow. All 20 tests passed; root/subpath TypeScript/Vite builds and public-asset checks passed. Local production Chrome verified all five previews, Escape/close/backdrop, focus return, no initial PDF fetch and layouts at 320/768/1440 with no page errors. Certificate contents/hashes and original-input exclusions are unchanged. All amendment checkboxes updated in this interaction. Both optional extensions remain disabled; no private files or new dependencies added. No commit, push or deployment.
+**Context**: Generated-code review amendment complete; formal Build and Test awaits explicit approval. Owned local preview server stopped at handoff.
+
+---
+
+## Code Generation — Revised Review Prompt
+**Timestamp**: 2026-10-26T16:52:51Z
+**AI Response**: "Updated the font sizes and added Preview/Open PDF options for all five approved certificates. Previews support Escape, close/backdrop dismissal and focus restoration. Twenty tests, production builds, privacy checks and mobile/desktop browser checks passed. Preview screenshot: /private/tmp/bui-duc-anh-review/certificate-preview-desktop.png. No private documents were added or published. Request Changes or Continue to Next Stage for Build and Test. Your AI-DLC instructions require approval of the revised code before that handoff."
+**Context**: AGENTS.md Code Generation review gate and construction/code-generation.md Step 15.
+
+---
+
+## Code Generation — Direct Preview and Introduction Revision
+**Timestamp**: 2026-10-26T17:18:33Z
+**User Input**: "Show the preview directly instead, and reduce the font size of first part"
+**AI Response**: Interpreted in context as inline certificate previews and a smaller opening hero matching the attached screenshot. Added a bounded review-amendment checklist; previews will derive exclusively from approved public PDFs.
+**Context**: Current generated-code review revision; optional extensions disabled, source privacy remains mandatory.
+
+---
+
+## Code Generation — Inline Preview Revision Complete
+**Timestamp**: 2026-10-26T17:23:54Z
+**AI Response**: Reduced hero headline to an 88px desktop maximum and 52–72px mobile range, intro copy to 16px desktop/15px mobile and primary action to 14px. Added six directly visible lazy-loaded JPEG previews derived solely from reviewed sanitized public PDFs; retained optional enlargement and Open PDF. Extended public-asset hashes and safe provenance notes. Twenty-one tests, root/subpath builds and public-asset checks passed. Stable-production Chrome verified all six decoded images, no overflow at 320/768/1440px, optional enlargement/focus return and no page errors. Temporary screenshot artifacts show the smaller introduction and direct certificate previews. No private originals, new dependencies, commit, push or deployment. Both optional extensions disabled; user privacy remains enforced. Updated checkboxes, summary, design notes, state and audit in this interaction.
+**Context**: Requested generated-code revision complete. Initial browser run overlapped a build replacement and timed out; rerun against stable output passed. Owned local server stopped on handoff.
+
+---
+
+## Code Generation — Revised Approval Prompt
+**Timestamp**: 2026-10-26T17:23:54Z
+**AI Response**: Certificates now preview directly on the page, and the opening headline/text are smaller. Twenty-one tests, builds and privacy checks passed. Show smaller-introduction.png and direct-certificate-preview.png directly in the response. AI-DLC code review: Request Changes or Continue to Build and Test, as required by the user's generated-code review instructions.
+**Context**: Generated-code approval remains pending before formal Build and Test.
+
+---
+
+## Code Generation — Certificate Centering Request
+**Timestamp**: 2026-10-26T17:28:29Z
+**User Input**: "can you centralise this part a bit more?"
+**AI Response**: The supplied screenshot identifies a single-page certificate preview aligned to the left. Center preview cards across the full achievement row; retain existing paired pages, document controls and approved public assets.
+**Context**: Small CSS revision within generated-code review. Both optional extensions disabled.
+
+---
+
+## Code Generation — Certificate Centering Complete
+**Timestamp**: 2026-10-26T17:29:35Z
+**AI Response**: Centered previews across the full achievement row. Build and public-asset checks passed. Local Chrome verified single-page preview centering within two pixels at 1440/768/320px and no overflow. No new tests added for this small CSS adjustment; prior 21 interaction tests remain the last suite result. Updated plan checkboxes, state and summary. Both optional extensions disabled; public certificate files unchanged. No commit, push or deployment.
+**Context**: Generated-code review revision complete. Screenshot centered-certificate.png shown directly. Request Changes or Continue to Build and Test remains the AI-DLC generated-code gate.
+
+---
+
+## Code Generation — Reference Language Request
+**Timestamp**: 2026-10-26T17:31:00Z
+**User Input**: "good, now please reference the language used here: [https://bao252512.github.io/](https://bao252512.github.io/)"
+**AI Response**: Review the linked public site and use its tone and wording patterns to revise Duc Anh’s copy, without transferring another person’s achievements or changing privacy boundaries. Web reader could not access the page; a read-only local browser fallback is in progress.
+**Context**: Bounded generated-code review amendment, not approval to publish or to copy another biography. Optional extensions disabled.
+
+---
+
+## Code Generation — Reference Language Revision Complete
+**Timestamp**: 2026-10-26T17:35:59Z
+**AI Response**: Read the reference site in local Chrome after the web reader failed. Adapted its conversational first-person voice, concise reflective headings and question-led project explanations to original, source-supported Duc Anh content. Changed public content modules, section wording, metadata title and relevant copy-sensitive tests. Twenty-one tests, the production build and public-asset checks passed; Chrome verified text fits 320/768/1440px. Existing layout and approved document assets unchanged. Updated plan checkboxes, state and summary. Optional extensions disabled. No commit, push or deployment. Local owned server stopped on handoff.
+**Context**: Generated-code review revision completed. Reference text remains outside the repository.
+
+---
+
+## Code Generation — Language Revision Review Prompt
+**Timestamp**: 2026-10-26T17:35:59Z
+**AI Response**: Updated the copy with the reference site’s conversational first-person tone, shorter headings and question-led project descriptions. Twenty-one tests, build and privacy checks passed. Show the updated screenshot directly. AI-DLC review remains Request Changes or Continue to Build and Test, as required by the current generated-code gate.
+**Context**: Explicit generated-code approval is still pending.
+
+---
