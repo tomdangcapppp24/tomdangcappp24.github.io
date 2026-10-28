@@ -157,8 +157,16 @@ h1 em {
 .hero-intro {
   max-width: 600px;
   font-size: 18px;
-  color: var(--muted);
+  color: var(--ink);
+  font-weight: 500;
   margin-top: 30px;
+}
+.hero-intro p {
+  line-height: 1.8;
+  text-wrap: pretty;
+}
+.hero-intro p + p {
+  margin-top: 16px;
 }
 .button {
   display: inline-flex;
@@ -183,14 +191,22 @@ h1 em {
   line-height: 1;
 }
 .hero-signature {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px 20px;
   font-size: 13px;
-  color: var(--muted);
+  color: var(--ink);
   margin-top: 26px;
   line-height: 1.7;
 }
+.hero-signature strong {
+  font-weight: 650;
+}
 .hero-signature > span {
-  padding: 0 7px;
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 500;
   color: var(--copper);
 }
 .hero-science {
@@ -1582,7 +1598,7 @@ h2 em {
   padding: 15px 20px;
 }
 .hero .hero-signature {
-  font-size: 12px;
+  font-size: 13px;
 }
 .certificate-inline-previews {
   grid-row: 3;
@@ -1634,7 +1650,7 @@ h2 em {
     font-size: 14px;
   }
   .hero .hero-signature {
-    font-size: 11px;
+    font-size: 12px;
   }
   .certificate-inline-previews {
     grid-column: 1 / -1;

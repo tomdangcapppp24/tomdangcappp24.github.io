@@ -40,3 +40,9 @@ Existing US-01/02/03/04/05/06 presentation; no new story or domain design. Exist
 - [x] Identify height caps shrinking the lattice within its wide frame.
 - [x] Enlarge the lattice using its native aspect ratio and make the frame taller.
 - [x] Verify portrait geometry, matching section widths and mobile overflow; build and record outcome (six widths; desktop frame 608 × 708px; build/public/format/diff checks pass).
+
+## Introduction typography refinement
+
+- [x] Review screenshots and identify light text, long paragraph and weak identity hierarchy.
+- [x] Apply darker medium-weight text, two-paragraph formatting and structured identity metadata.
+- [x] Check existing tests, build/public assets and responsive browser rendering; update handoff notes (23 tests, build/public/format/diff checks, six responsive widths; dark 500-weight text and two paragraphs verified).

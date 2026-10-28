@@ -10,7 +10,9 @@ export const introduction = {
   location: "Hanoi, Vietnam",
   role: "A-level student · Nguyen Sieu High School",
   summary:
-    "I’m an A-level student in Hanoi exploring chemistry, materials science, and the processes behind semiconductor fabrication. I’m interested in how the behaviour of materials at small scales connects to practical engineering questions.",
+    "I’m an A-level student in Hanoi exploring chemistry, materials science, and the processes behind semiconductor fabrication.",
+  perspective:
+    "I’m interested in how the behaviour of materials at small scales connects to practical engineering questions.",
   interests: [
     "Materials science",
     "Semiconductor fabrication",

@@ -114,7 +114,10 @@ export function Introduction({
           <h1 id="intro-title">
             <span className="hero-greeting">Hi, I’m</span> <em>Duc Anh.</em>
           </h1>
-          <p className="hero-intro">{introduction.summary}</p>
+          <div className="hero-intro">
+            <p>{introduction.summary}</p>
+            <p>{introduction.perspective}</p>
+          </div>
           <div className="hero-actions">
             <a
               className="button button-dark"
@@ -132,7 +135,8 @@ export function Introduction({
             </a>
           </div>
           <span className="hero-signature">
-            Bui Duc Anh <span> / </span> {introduction.role}
+            <strong>Bui Duc Anh</strong>
+            <span>{introduction.role}</span>
           </span>
         </div>
         <div className="hero-science">

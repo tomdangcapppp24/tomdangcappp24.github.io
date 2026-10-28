@@ -10505,3 +10505,18 @@ thay từ chỉ mục mẫu bằng từ đúng, ngoài ra fix lỗi vị trí c�
 **Context**: Requested illustration sizing revision complete.
 
 ---
+
+## Visual Review — Introduction Typography
+**Timestamp**: 2026-10-28T16:02:17Z
+**User Input**: "Please make the black text bolder and more nicely formatted, similar to the thin film growth part:"
+**AI Response**: Scope the screenshot-based correction to the introduction: darker medium-weight body text, two paragraphs separating identity/interests from motivation, and a stronger name with structured monospaced student details inspired by project metadata. Preserve wording and layout.
+**Context**: User supplied introduction and research screenshots; authorized presentation amendment. Optional extensions remain disabled.
+
+---
+
+## Visual Review — Introduction Typography Complete
+**Timestamp**: 2026-10-28T16:02:57Z
+**AI Response**: Darkened introduction to ink with 500 weight; separated existing wording into two paragraphs with 16px spacing and 1.8 line height. Added a stronger name and copper monospaced student details inspired by project metadata. All 23 tests, build, public-asset verification, Prettier and diff checks pass. Chrome at six widths confirms darker medium-weight text, two paragraphs and no overflow. Reviewed screenshot; plan, state and summary updated. Optional extensions remain disabled. Local preview updated; no commit or publication.
+**Context**: Requested introduction typography correction complete.
+
+---

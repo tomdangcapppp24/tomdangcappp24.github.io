@@ -41,3 +41,7 @@ Latest user screenshot requested matching first/second section size. Removed the
 ## Larger, vertical lattice panel
 
 Latest user request targets the lattice frame. Removed desktop/mobile SVG height caps to let the lattice fill the frame at its native aspect ratio and increased frame padding. Desktop panel now measures 608 × 708px, with a substantially larger lattice. Chrome at 320/390/768/1024/1440/1920px confirms portrait frames, no horizontal overflow and preserved matching introduction/research content edges. Production build, public-asset verification, formatting and diff checks pass. Screenshot reviewed at `/private/tmp/bui-duc-anh-review/vertical-lattice-1440.png`. Preview updated locally; no deployment.
+
+## Stronger introduction typography
+
+User asked for darker, bolder and better-formatted introduction text, using thin-film project formatting as reference. Split the existing two sentences into summary/perspective fields and two semantic paragraphs without changing wording. Applied dark ink (#272d29), medium 500 weight, 1.8 line height and 16px paragraph spacing. Identity now uses a 650-weight name and copper monospaced student details, with wrapping on narrow screens. Existing 23 tests pass; production build, public-asset verification, Prettier and diff checks pass. Chrome at 320/390/768/1024/1440/1920px confirms two paragraphs, dark 500-weight text and no overflow. Screenshot reviewed at `/private/tmp/bui-duc-anh-review/hero-typography-1440.png`. Local preview updated; no publication.

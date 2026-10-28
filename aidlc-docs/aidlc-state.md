@@ -16,6 +16,7 @@
 - [x] Proportion correction: reduced artwork to 400px wide with a 260px SVG, compacted labels/caption and aligned all hero elements to a shared 1040px container. Six responsive widths and build/public/format checks pass.
 - [x] First/second section size correction supersedes the 1040px hero cap: hero and research content now share matching widths/edges at all six checked viewport sizes; equal desktop columns, matched paragraph size and restrained artwork height.
 - [x] Latest lattice amendment: removed SVG height caps and increased frame padding; larger portrait panel measures 608 × 708px on desktop. Six responsive widths retain matching section edges and no overflow; build/public/format/diff checks pass.
+- [x] Introduction typography: dark ink at 500 weight, two paragraphs, strong name and copper monospaced student details; 23 tests, build/public/format/diff checks and six responsive widths pass.
 - **Publication**: No commit, push or deployment for this amendment. Local preview available at http://127.0.0.1:4173/.
 - **Extensions**: Both optional extensions remain disabled; skipped.
 
