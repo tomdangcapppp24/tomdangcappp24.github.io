@@ -1,5 +1,7 @@
 # Build and Test Summary
 
+Current portfolio handoff: [Bui Duc Anh — materials portfolio](materials-portfolio/build-and-test-summary.md). Earlier workflow content below is retained as historical evidence.
+
 Latest workflow: [NUS Career Talk results](nus-career-talk/build-and-test-summary.md). The previous workflow results below are retained as historical evidence.
 
 ## Outcome

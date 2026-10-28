@@ -1,5 +1,7 @@
 # Unit Test Execution Instructions
 
+Current portfolio handoff: [Bui Duc Anh — materials portfolio](materials-portfolio/unit-test-instructions.md). Earlier workflow content below is retained as historical evidence.
+
 ## Purpose
 
 Run the deterministic tests that protect typed data, navigation, layout helpers, template selection, registry behavior, CSS isolation, and accessibility safeguards.

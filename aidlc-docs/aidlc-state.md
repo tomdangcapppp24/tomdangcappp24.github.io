@@ -1,10 +1,40 @@
 # AI-DLC State Tracking
 
+## Reference-Inspired Portfolio Refinement — 2026-10-28
+
+- **Status**: Implemented and verified locally; ready for visual review.
+- **Reference**: https://beetranngoclinhanh-cmyk.github.io/.
+- **Scope**: Existing portfolio presentation amendment; original copper/sage materials-science identity retained.
+- **Plan**: construction/plans/materials-portfolio-visual-refinement-plan.md.
+- **Summary**: construction/materials-portfolio/code/visual-refinement-summary.md.
+- [x] Reference and approved requirements/design reviewed.
+- [x] Hero, research, education, certificate gallery and footer refined.
+- [x] 23 tests, root/subpath builds and public-asset checks pass.
+- [x] Five responsive widths, anchor visibility, certificate loading/dialog focus, PDF links and motion controls verified in Chrome; no browser errors.
+- [x] Formatting and diff checks pass; screenshots reviewed.
+- [x] User-requested hero-gap correction: centered bounded columns, 48px desktop spacing, responsive checks and production build/public-asset checks pass.
+- [x] Proportion correction: reduced artwork to 400px wide with a 260px SVG, compacted labels/caption and aligned all hero elements to a shared 1040px container. Six responsive widths and build/public/format checks pass.
+- [x] First/second section size correction supersedes the 1040px hero cap: hero and research content now share matching widths/edges at all six checked viewport sizes; equal desktop columns, matched paragraph size and restrained artwork height.
+- [x] Latest lattice amendment: removed SVG height caps and increased frame padding; larger portrait panel measures 608 × 708px on desktop. Six responsive widths retain matching section edges and no overflow; build/public/format/diff checks pass.
+- **Publication**: No commit, push or deployment for this amendment. Local preview available at http://127.0.0.1:4173/.
+- **Extensions**: Both optional extensions remain disabled; skipped.
+
+## GitHub Deployment Recovery — 2026-10-28
+
+- [x] Diagnosed historical configure-pages HTTP 404; current Pages configuration already uses workflow builds.
+- [x] Retried failed run 40381229833 using GitHub CLI after connector returned integration-permission HTTP 403.
+- [x] GitHub build, tests, public-asset verification and deployment passed.
+- [x] Verified live HTML, JavaScript and CSS return HTTP 200.
+- **Status**: Recovery complete; deployed existing commit 9e5d261. No source change, commit or push needed.
+- **Site**: https://tomdangcapppp24.github.io/tomdangcappp24.github.io/
+- **Plan**: construction/plans/github-deployment-recovery-plan.md.
+- **Extensions**: Both optional extensions remain disabled; skipped.
+
 ## Bui Duc Anh Materials Science Portfolio — Current Workflow
 
 - **Workspace**: `/Users/nhamhhung/tomdangcappp24.github.io`.
 - **Current phase**: CONSTRUCTION.
-- **Current stage**: Code Generation Part 2 — scientific animations and compact greeting verified, awaiting generated-code approval.
+- **Current stage**: Build and Test complete — awaiting approval to enter the Operations placeholder.
 - **Depth**: Standard; custom multi-section portfolio with public document privacy requirements.
 - **Plan**: `inception/plans/bui-duc-anh-workspace-plan.md`.
 - **Questions**: `inception/requirements/bui-duc-anh-requirement-questions.md`.
@@ -19,7 +49,8 @@
 - **NFR Design plan**: `construction/plans/materials-portfolio-nfr-design-plan.md`.
 - **Code Generation plan**: `construction/plans/materials-portfolio-code-generation-plan.md`.
 - **Code summary**: `construction/materials-portfolio/code/code-generation-summary.md`.
-- **Next stage after approval**: Build and Test — formal instructions and handoff.
+- **Build and Test summary**: `construction/build-and-test/materials-portfolio/build-and-test-summary.md`.
+- **Next stage after approval**: Operations — placeholder acknowledgement.
 - **Validated answers**: Q1 A, Q2 A, Q3 B, Q4 C; confirmed by "approve and continue".
 - [x] Workspace Detection and existing architecture review.
 - [x] Local resume content and ZIP inventory review.
@@ -46,8 +77,9 @@
 - [x] All twelve implementation steps and eight stories completed; 19 tests, root/subpath builds and public-asset checks passed.
 - [x] Requested larger typography and on-demand certificate previews implemented; 20 tests, root/subpath builds, privacy checks and browser dialog/responsive checks passed.
 - [x] Direct-preview/smaller-introduction revision verified: six approved inline images, 21 tests, responsive browser checks and root/subpath privacy-checked builds.
-- [ ] Generated code approved before formal Build and Test.
-- [ ] Build and Test.
+- [x] Generated code, including review amendments, approved with "approve and continue".
+- [x] Build and Test — 23 tests, root/subpath builds, public-asset checks and seven handoff documents complete.
+- [ ] Operations placeholder approval.
 
 Previous workflows below remain historical. Both optional extensions are disabled by the current workflow's explicit answers. Implementation is complete and verified; no commit, push or deployment has occurred for this change.
 

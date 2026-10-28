@@ -120,8 +120,8 @@ Duration is not estimated before document review and tooling checks; the scope i
 - [x] Complete and approve Application Design.
 - [x] Complete and approve NFR Requirements.
 - [x] Complete and approve NFR Design.
-- [ ] Approve detailed Code Generation plan, implement, and approve generated code.
-- [ ] Complete Build and Test and required handoff.
+- [x] Approve detailed Code Generation plan, implement, and approve generated code.
+- [x] Complete Build and Test and required handoff; Operations approval pending.
 
 ## Extension compliance
 

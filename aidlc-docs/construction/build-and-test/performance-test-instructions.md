@@ -1,5 +1,7 @@
 # Performance Test Instructions
 
+Current portfolio handoff: [Bui Duc Anh — materials portfolio](materials-portfolio/performance-test-instructions.md). Earlier workflow content below is retained as historical evidence.
+
 ## Purpose
 
 Track build output and browser-delivery risks appropriate to a static GitHub Pages portfolio. Server load, throughput, concurrent-user, and API stress testing are not applicable because the project has no application server or API.

@@ -104,3 +104,7 @@ Added CSS-only landing entrance, gentle lattice drift/breathing and orbital moti
 An accessible Motion on/off control pauses both illustrations; the system reduced-motion preference disables animation, including when changed while the page is open. IntersectionObserver pauses offscreen figures and disconnects on unmount. The greeting now uses two compact block lines with tighter line-height and a smaller gap to its paragraph; the approved smaller type sizes are retained.
 
 Twenty-three tests passed. TypeScript/Vite build and public-asset checks passed. Local Chrome verified changing lattice/particle transforms, exact pause behavior, offscreen pausing, live reduced-motion changes, an approximately -1.44px greeting line-box gap and no horizontal overflow at 320/768/1440px. No uncaught browser errors. Screenshots: `/private/tmp/bui-duc-anh-review/compact-greeting.png` and `animated-thin-film.png`; screenshots are static frames of moving illustrations. No commit, push or deployment occurred. Both optional extensions remain disabled; approved document assets and privacy controls are unchanged. Generated-code approval is still pending.
+
+## Approval and formal handoff
+
+The user approved the generated code and review amendments with "approve and continue". Formal Build and Test is now complete; see [current handoff summary](../../build-and-test/materials-portfolio/build-and-test-summary.md). Earlier pending-review statements above document historical checkpoints. No deployment has occurred.

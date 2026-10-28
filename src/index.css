@@ -1,12 +1,12 @@
 :root {
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: "Avenir Next", Avenir, "Segoe UI", sans-serif;
   font-size: 18px;
   color: #272d29;
-  background: #f7f5ed;
+  background: #faf7ef;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  --paper: #f7f5ed;
+  --paper: #faf7ef;
   --ink: #272d29;
   --muted: #62665b;
   --copper: #945334;

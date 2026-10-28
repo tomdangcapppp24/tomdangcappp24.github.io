@@ -10360,3 +10360,148 @@ thay từ chỉ mục mẫu bằng từ đúng, ngoài ra fix lỗi vị trí c�
 **Context**: Existing generated-code gate; no publication.
 
 ---
+
+## Generated-Code Approval and Build and Test
+**Timestamp**: 2026-10-27T14:24:06Z
+**User Input**: "approve and continue"
+**AI Response**: Marked current generated code and all review amendments approved. Loaded construction/build-and-test.md and prepared the formal verification/instruction checklist. Current documentation will be grouped under build-and-test/materials-portfolio with links from shared handoff files; historical evidence remains retained.
+**Context**: Formal Build and Test in progress. No publication authorized or performed by this approval.
+
+---
+
+## Build and Test Stage
+**Timestamp**: 2026-10-27T14:27:39Z
+**Build Status**: Success — TypeScript/Vite root and repository-subpath builds.
+**Test Status**: Pass — 23 tests, zero failures; source/build public-asset checks passed.
+**Files Generated**: Seven current instructions/summary files under construction/build-and-test/materials-portfolio: build-instructions.md, unit-test-instructions.md, integration-test-instructions.md, performance-test-instructions.md, security-test-instructions.md, e2e-test-instructions.md, build-and-test-summary.md.
+**AI Response**: Recorded Node 24.0.0/npm 11.3.0, actual gzip entry measurements (67.08 KiB JS, 5.54 KiB CSS), safe document allowlisting and latest browser evidence. Prior browser checks are explicitly distinguished from this formal automated/build rerun. Coverage, toolbar zoom, complete assistive-technology/cross-browser audits and dependency vulnerability scans are not claimed. Updated shared handoff links while preserving historical documents; marked code approval, execution plan and stage checkboxes in this interaction. Both optional extensions disabled; mandatory privacy checks passed. No commit, push or deployment.
+**Context**: Formal Build and Test complete; Operations placeholder approval pending.
+
+---
+
+## Build and Test — Operations Approval Prompt
+**Timestamp**: 2026-10-27T14:27:39Z
+**AI Response**: "Build and Test complete: 23 tests passed, root/subpath builds and public-asset checks passed. Seven handoff documents are available at aidlc-docs/construction/build-and-test/materials-portfolio/. Build and test instructions complete. Ready to proceed to Operations stage? AI-DLC requires approval before Operations; that stage is currently a placeholder. Nothing has been committed, pushed or published."
+**Context**: Approval gate from AGENTS.md Build and Test Step 5 and construction/build-and-test.md Step 9.
+
+---
+
+## GitHub Deployment Recovery — User Request
+**Timestamp**: 2026-10-28T10:41:23Z
+**User Input**: "please check github why this project fails to deploy"
+**AI Response**: Resume existing workflow, inspect Actions logs and Pages configuration, retry failed deployment and verify publication.
+**Context**: Focused operational recovery; existing source and uncommitted documentation preserved.
+
+---
+
+## GitHub Deployment Recovery — User Request
+**Timestamp**: 2026-10-28T10:41:23Z
+**User Input**: "please resume and fix the github failure"
+**AI Response**: Resume existing workflow, inspect Actions logs and Pages configuration, retry failed deployment and verify publication.
+**Context**: Focused operational recovery; existing source and uncommitted documentation preserved.
+
+---
+
+## GitHub Deployment Recovery — Diagnosis and Plan
+**Timestamp**: 2026-10-28T10:41:23Z
+**AI Response**: Run 40381229833 passed installation, 23 tests, production build and public-asset verification, then failed at configure-pages with HTTP 404. Current Pages API returns build_type workflow and the expected project URL, so no code edit or settings mutation is necessary. Retry failed jobs, inspect completion, then verify live HTML and assets. Both optional extensions remain disabled and are skipped.
+**Context**: User explicitly authorized recovery. No new software implementation stages required.
+
+---
+
+## GitHub Deployment Recovery — Complete
+**Timestamp**: 2026-10-28T10:42:53Z
+**AI Response**: Pages was already enabled with build_type workflow at inspection. Connector rerun returned integration-permission HTTP 403; authorized GitHub CLI rerun succeeded. Run 40381229833 now passed: build 26 seconds, deploy 13 seconds. Tests, production build and public-asset checks passed in CI. Live site HTML, JavaScript and CSS returned HTTP 200 at https://tomdangcapppp24.github.io/tomdangcappp24.github.io/. No application/workflow changes, commits or pushes. Existing uncommitted documentation preserved. Updated all recovery plan checkboxes and state. Optional extensions remain disabled and skipped.
+**Context**: User-facing outcome: deployment fixed by retry after Pages enablement; existing project path retained.
+
+---
+
+## Portfolio Visual Refinement — User Request
+**Timestamp**: 2026-10-28T12:25:34Z
+**User Input**: "please reference this page to build this portfolio more: [https://beetranngoclinhanh-cmyk.github.io/](https://beetranngoclinhanh-cmyk.github.io/)"
+**AI Response**: Review the reference and current portfolio, then implement a bounded visual amendment within existing approved factual, privacy and accessibility requirements.
+**Context**: First request interrupted; latest wording clarifies visual scope. No hosting migration requested.
+
+---
+
+## Portfolio Visual Refinement — User Request
+**Timestamp**: 2026-10-28T12:25:34Z
+**User Input**: "please reference this page to build this portfolio more beautifully where possible: [https://beetranngoclinhanh-cmyk.github.io/](https://beetranngoclinhanh-cmyk.github.io/)"
+**AI Response**: Review the reference and current portfolio, then implement a bounded visual amendment within existing approved factual, privacy and accessibility requirements.
+**Context**: First request interrupted; latest wording clarifies visual scope. No hosting migration requested.
+
+---
+
+## Portfolio Visual Refinement — Requirements and Execution Plan
+**Timestamp**: 2026-10-28T12:25:34Z
+**AI Response**: Reference inspected in local Chrome (HTTP 200) after web-reader failure. Adopt warm editorial composition, framed hero artwork, concise personal statement, varied section surfaces and evidence gallery. Preserve Duc Anh identity, accurate facts, compact greeting, scientific conceptual labels, pause/reduced-motion behavior, all six direct certificate previews and five approved PDFs. Source change restricted to existing presentation components and styles; no new dependencies, data models or infrastructure. Existing extension decisions retained: both disabled, skipped. Existing design and reverse engineering reused; new stories and detailed design stages unnecessary for bounded presentation amendment. Plan shown in commentary before implementation. Validate existing tests, root/subpath builds, public-asset checks and responsive real-browser interactions.
+**Context**: Direct user revision authorizes implementation within approved portfolio design boundaries.
+
+---
+
+## Portfolio Visual Refinement — Complete
+**Timestamp**: 2026-10-28T12:32:40Z
+**AI Response**: Updated the existing hero, research panel, education cards, certificate gallery and footer using the reference’s warm editorial composition, adapted to the original copper/sage palette. Preserved source-supported content, conceptual labels, compact greeting, all six approved inline images and five PDFs. Fixed 320px education overflow during real-browser review. Final validation: 23 tests; root/subpath builds; both public-asset verifications; Chrome at 320/390/768/1024/1440px; all anchors clear header, images decode, PDFs HTTP 200, native dialog Escape/focus return, pause/resume and reduced motion work; zero uncaught browser errors; Prettier and diff checks pass. Final screenshots reviewed and saved outside the repository. All amendment plan checkboxes and state updated. Both optional extensions disabled and skipped. Existing local documentation changes preserved. No source dependency, hosting change, commit, push or deployment. Preview remains available at http://127.0.0.1:4173/.
+**Context**: Requested visual implementation complete locally and ready for review.
+
+---
+
+## Visual Review — Hero Gap Correction
+**Timestamp**: 2026-10-28T12:36:29Z
+**User Input**: "The gap is too large, fix it"
+**AI Response**: The screenshot identifies excess horizontal space between introduction and artwork. Constrain desktop column widths, center the paired composition, reduce its explicit gap and let the introduction use its column width. Check desktop and mobile geometry, then build.
+**Context**: Bounded CSS review amendment, explicitly authorized; optional extensions remain disabled. User supplied a screenshot of the hero.
+
+---
+
+## Visual Review — Hero Gap Correction Complete
+**Timestamp**: 2026-10-28T12:37:03Z
+**AI Response**: Fixed the excess center gap with bounded centered columns, 48px desktop spacing and full-column introduction copy. Chrome checks passed at 320/768/1440/1920px without overflow; desktop gap measured 48px. Production build, public-asset verification and diff check passed. Screenshot reviewed; plan checkboxes, state and summary updated. Changes available in the existing local preview. Both optional extensions disabled and skipped.
+**Context**: CSS-only review correction; no commit or deployment.
+
+---
+
+## Visual Review — Hero Proportions
+**Timestamp**: 2026-10-28T12:42:07Z
+**User Input**: "it doesn't look very proportional"
+**AI Response**: Screenshot shows artwork stack significantly taller than copy. Reduce illustration frame height and width, compact decorative labels and question caption, and use a shared bounded width for hero top line and grid so the introduction aligns with its section. Preserve font size, content and responsive stacking.
+**Context**: Authorized CSS presentation amendment; optional extensions remain disabled.
+
+---
+
+## Visual Review — Hero Proportions Complete
+**Timestamp**: 2026-10-28T12:43:03Z
+**AI Response**: Rebalanced the hero with a shared 1040px container, flexible text column and 400px artwork, shorter 260px scientific SVG, compact labels and caption, and 64px desktop spacing. At 1440px copy height 421px/art stack 488px; all six tested widths have no overflow and section alignment is consistent. Reviewed the desktop screenshot. Production build, public-asset verification, Prettier and diff checks pass. Updated checklist, state and summary. Both optional extensions remain disabled; no publication.
+**Context**: User-requested visual review correction complete locally.
+
+---
+
+## Visual Review — Match Introduction and Research Width
+**Timestamp**: 2026-10-28T12:46:18Z
+**User Input**: "make the first page match in size with the second one too"
+**AI Response**: Match the hero content edges to the research section’s inner content at every breakpoint. Use the same two equal columns and gap, widen the illustration with a restrained height, and match paragraph reading size to research. Verify exact widths/edges in Chrome and rebuild.
+**Context**: Screenshot identifies inconsistent section scale; bounded CSS amendment. Optional extensions remain disabled.
+
+---
+
+## Visual Review — Matching Section Scale Complete
+**Timestamp**: 2026-10-28T12:47:02Z
+**AI Response**: Matched introduction and research content widths and horizontal edges across 320/390/768/1024/1440/1920px, within 1px; no overflow. Both desktop sections now have equal columns and 17px reading text, with the hero illustration expanded proportionally and restrained in height. Reviewed combined screenshot. Production build, public-asset verification, Prettier and diff checks pass. Updated plan, state and summary. Both optional extensions disabled and skipped. Local preview updated; no commit or deployment.
+**Context**: User-requested first/second section sizing correction complete.
+
+---
+
+## Visual Review — Larger Vertical Lattice
+**Timestamp**: 2026-10-28T14:55:58Z
+**User Input**: "please make it larger and more vertical"
+**AI Response**: Screenshot targets the crystal-lattice panel. Remove the SVG height caps so it fills its available width at its native aspect ratio, and increase frame padding for a taller portrait composition. Preserve matching section widths. Verify desktop/mobile dimensions and rebuild.
+**Context**: Authorized CSS amendment; optional extensions remain disabled.
+
+---
+
+## Visual Review — Larger Vertical Lattice Complete
+**Timestamp**: 2026-10-28T14:56:22Z
+**AI Response**: Enlarged the crystal lattice by removing SVG height caps and increased frame padding. Desktop portrait panel measures 608 by 708 pixels. Six responsive widths pass portrait geometry, matching section-width and no-overflow checks. Build, public-asset verification, Prettier and diff checks pass. Reviewed screenshot; plan, summary and state updated. Both optional extensions remain disabled. Local preview updated; no commit or deployment.
+**Context**: Requested illustration sizing revision complete.
+
+---

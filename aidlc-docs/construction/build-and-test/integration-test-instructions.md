@@ -1,5 +1,7 @@
 # Integration Test Instructions
 
+Current portfolio handoff: [Bui Duc Anh — materials portfolio](materials-portfolio/integration-test-instructions.md). Earlier workflow content below is retained as historical evidence.
+
 ## Purpose
 
 Verify that the application shell, Business presentation, shared data, routes, and journal pages work together after the README and contact-color amendment.

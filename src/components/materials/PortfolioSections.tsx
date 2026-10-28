@@ -115,19 +115,40 @@ export function Introduction({
             <span className="hero-greeting">Hi, I’m</span> <em>Duc Anh.</em>
           </h1>
           <p className="hero-intro">{introduction.summary}</p>
-          <a
-            className="button button-dark"
-            href="#research"
-            data-testid="hero-research-link"
-          >
-            Explore the project <Arrow />
-          </a>
+          <div className="hero-actions">
+            <a
+              className="button button-dark"
+              href="#research"
+              data-testid="hero-research-link"
+            >
+              Explore the project <Arrow />
+            </a>
+            <a
+              className="hero-secondary-link"
+              href="#foundations"
+              data-testid="hero-foundations-link"
+            >
+              My learning journey <Arrow diagonal />
+            </a>
+          </div>
           <span className="hero-signature">
             Bui Duc Anh <span> / </span> {introduction.role}
           </span>
         </div>
         <div className="hero-science">
-          <ScientificIllustration variant="lattice" />
+          <div className="specimen-frame">
+            <div className="specimen-topline mono" aria-hidden="true">
+              <span>FIELD NOTES / 01</span>
+              <span>STRUCTURE & POSSIBILITY ↗</span>
+            </div>
+            <ScientificIllustration variant="lattice" />
+            <div className="specimen-label" aria-hidden="true">
+              <span className="mono">A SMALL-SCALE PERSPECTIVE</span>
+              <span>
+                Atoms. Structure. <em>Possibility.</em>
+              </span>
+            </div>
+          </div>
           <div className="hero-note">
             <span className="note-index mono">A QUESTION TO FOLLOW</span>
             <p>
@@ -143,6 +164,21 @@ export function Introduction({
           <span key={interest}>{interest}</span>
         ))}
         <span className="strip-symbol" aria-hidden="true">
+          ✳
+        </span>
+      </div>
+      <div className="curiosity-note">
+        <p className="eyebrow">The question behind the work</p>
+        <p className="curiosity-statement">
+          Small structures.
+          <br />
+          <em>Bigger questions.</em>
+        </p>
+        <p className="curiosity-detail">
+          I’m learning to connect chemistry, computation, and engineering — one
+          model, one observation, and one better question at a time.
+        </p>
+        <span className="curiosity-symbol" aria-hidden="true">
           ✳
         </span>
       </div>
@@ -178,6 +214,10 @@ export function ResearchSection() {
             </div>
           </div>
           <div className="research-visual">
+            <div className="project-visual-label mono" aria-hidden="true">
+              <span>INSIDE THE MODEL</span>
+              <span>CONCEPTUAL STUDY</span>
+            </div>
             <ScientificIllustration variant="film" />
             <div className="parameter-list">
               <span className="mono">VARIABLES EXPLORED</span>
@@ -319,7 +359,7 @@ export function RecognitionSection({
           {entries.map((entry) => (
             <article className="achievement" key={entry.id}>
               <span className="achievement-year mono">{entry.year}</span>
-              <div>
+              <div className="achievement-copy">
                 <span className="achievement-category">{entry.category}</span>
                 <h3>{entry.title}</h3>
                 <p>{entry.description}</p>
@@ -479,10 +519,16 @@ export function SiteFooter() {
     <footer className="site-footer">
       <div className="page-width">
         <div className="footer-top">
-          <p>
-            Keep asking. <br />
-            <em>Keep exploring.</em>
-          </p>
+          <div className="footer-message">
+            <span className="mono">THERE’S ALWAYS MORE TO UNDERSTAND.</span>
+            <p>
+              Keep asking. <br />
+              <em>Keep exploring.</em>
+            </p>
+            <span className="footer-subtitle">
+              Materials, models, and the world beyond them.
+            </span>
+          </div>
           <a href="#home" data-testid="footer-top-link" className="back-to-top">
             Back to the beginning <span aria-hidden="true">↑</span>
           </a>

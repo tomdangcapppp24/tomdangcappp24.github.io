@@ -1,6 +1,6 @@
 # Materials portfolio Code Generation plan
 
-Status: all twelve implementation steps complete; generated-code review pending.
+Status: all implementation steps and review amendments approved; formal Build and Test complete.
 
 This document is the single source of truth for Code Generation for the `materials-portfolio` unit. Modify existing files in place, create only the specified new responsibilities, and immediately mark each completed step and story checkbox. Application code belongs under `/Users/nhamhhung/tomdangcappp24.github.io`, never inside aidlc-docs.
 

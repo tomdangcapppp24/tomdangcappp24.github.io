@@ -1,5 +1,7 @@
 # Build Instructions
 
+Current portfolio handoff: [Bui Duc Anh — materials portfolio](materials-portfolio/build-instructions.md). Earlier workflow content below is retained as historical evidence.
+
 ## Prerequisites
 
 | Requirement                   | Project value                                                      |
